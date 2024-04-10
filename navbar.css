@@ -1,0 +1,35 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 0.3vw 10vw;
+    /* padding-top: 3vw; */
+    height: 95px;
+    display: flex;
+    /* border: 2px solid #222222; */
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+}
+.logo {
+    margin-right: auto;
+    width: 180px;
+}
+a {
+    text-decoration: none;
+    color: #222222;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+.fa {
+    padding: 8px;
+}
+@media screen and (max-width: 980px) {
+    
+}
